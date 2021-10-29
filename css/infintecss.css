@@ -1,0 +1,475 @@
+*,*:after,*:before{
+    
+    margin: 0px; 
+    padding:0px; 
+    box-sizing: border-box;
+       font-family: raleway,sans-serif;
+}
+body{
+    height: 4000px;
+}
+
+/* start of the header*/
+
+header {
+    
+    background-image: url(../img/infinite-loop-01.jpg);
+    height:780px; 
+    background-size: cover;
+}
+
+.container {
+    width:1170; 
+    margin:auto;
+}
+
+header  .first{
+      color:#FFF;
+
+    
+
+}
+header .first  h2 {
+    float:left;
+    line-height: 250%;
+    margin-left: 10%;
+
+
+
+    
+}
+header .first nav ul {
+    list-style: none;
+    font-size:24px;
+    float:right;
+    line-height: 250%;
+    margin-right: 200px;
+
+
+}
+header  .first nav ul li {
+    margin-right:45px;;
+    cursor: pointer;
+    float:left;
+    text-transform: capitalize;
+    height: 60px;
+    font-family: raleway;    
+}
+header  nav ul li:hover {
+    background-color:#37a;
+    
+
+}
+.clearfix{
+    clear: both;
+}
+header .container .center{
+    color:#FFF;
+    text-align: center;
+    margin-top: 200px;
+
+}
+header .container .center h3{
+    font-size:50px;
+    margin-bottom: 14px;
+
+}
+header .container .center p {
+    font-size:23px;
+    margin-bottom: 10px;
+}
+header .container .arrow {
+    
+    margin-left: 45%;
+    margin-top: 150px;
+}
+
+header .container .arrow img {
+    
+    width:120px; 
+    height:90px;
+    cursor:pointer; 
+
+}
+header .container .arrow img:hover{
+    opacity: 0.5;
+    
+}
+
+
+
+/* the end of the header */
+
+.second{
+    
+    height:800px;
+}
+.second .container .icons .one img {
+    
+    width:60px;
+    height: 30px;
+    display: inline-block;
+}
+
+.second .container .top {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.second .container .top h2{
+    color:#37A;
+    font-size:40px;
+    margin-bottom: 20px;
+}
+.second .container .top p {
+    color:#707070;
+    font-size: 19px;
+    line-height: 1.7;
+}
+.second .container .top p span {
+    color:#38B;
+    
+}
+.second .container .icons .first-part .one,.second .container .icons .second-part .one {
+    
+    width:50%;
+    float:left;
+
+}
+.second .container .icons .first-part .one{
+    margin-bottom: 100px;
+}
+
+.second .container .icons .first-part .one h2 ,.second .container .icons .second-part .one h2 {
+    display: inline-block;
+    margin-left: 25px;
+    color:#37A;
+
+}
+.second .container .icons .first-part .one p ,.second .container .icons .second-part .one p{
+    margin-top: 10px;
+    width:70%;
+    text-align: justify;
+    margin-left: 84px;
+    color:#707070;
+    line-height: 1.5;
+    font-family: raleway;
+    font-size: 20px;
+
+}
+.second .container .icons .second-part button { 
+
+    padding:10px;
+    margin-top: 40px;
+    width: 180px;
+    margin-left: 84px;
+    background-color: #369;
+    color:#FFF; 
+    font-size:20px;
+    border: 0 ;
+    cursor: pointer;
+    height: 60px;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 150px;
+
+
+}
+.second .container .icons .second-part .one:nth-of-type(1) button{
+    margin-top: 10px;
+    font-family: raleway;
+}
+.second .container .icons .second-part button:hover{
+    background-color: #38b;
+}
+
+
+/*end of the part 2 */
+
+
+.third {
+    
+    background-image: url(../img/infinite-loop-02.jpg);
+    background-size:cover;
+    height: 800px;
+}
+.third .container {
+    width: 150%;
+}
+.third .container .head {
+    
+    color:#FFf;
+    text-align: center;
+    padding-top:100px;
+
+    
+}
+.third .container .head h2{
+    font-size:40px;
+    font-family: raleway;
+    margin-bottom: 40px;
+    margin-left: -1000px;
+
+}
+.third .container .head p {
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 80px;
+    margin-left: -1000px;
+}
+.third .container {
+        overflow: hidden;
+
+}
+.third .container  .image {
+    width:10%; 
+    float: left;
+    display:inline-block;
+    margin-left: 200px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.third .container  .image:nth-of-type(5),.third .container  .image:nth-of-type(6){
+    display: none;
+}
+
+.third .container  .image img {
+    border-radius: 50%;
+    margin-bottom: 40px;
+
+}
+.third .container  .image p {
+    margin:0;
+    color:#FFF; 
+    font-size: 18px;
+    font-family: raleway,sans-serif;
+    line-height: 2;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.third .container .points {
+    width:400px; 
+    height:100px; 
+}
+.third .container .points {
+    margin-left:29%;
+    margin-top: 46px;
+}
+.fourth .container .points {
+    
+     margin-left:40%;
+    margin-top: 46px;
+}
+
+
+.third .container .points  span {
+    display: inline-block;
+    width:20px; 
+    height:20px; 
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #BBB; 
+    cursor: pointer;
+}
+.fourth .container .points  span {
+     display: inline-block;
+    width:20px; 
+    height:20px; 
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #BBB; 
+    cursor: pointer;
+}
+.third .container .points  span:first-of-type{
+    background-color: #FFF;
+}
+
+.third .container .points  span:hover{
+    background-color: #FFF;
+    
+}
+@keyframes animate {
+    0%{
+        transform-origin: center;
+        transform: translateX(0);
+    }
+    100%{
+                transform: translate(-2000px);
+                
+    }
+  
+    
+  
+}
+@keyframes animate2 {
+    0%{
+        transform-origin: center;
+        transform: translateX(0);
+    }
+    100%{
+                transform: translate(-370px);
+                
+    }
+    
+    
+  
+    
+  
+}
+@keyframes animate3 {
+    0%{
+        transform-origin: center;
+        transform: translateX(0);
+    }
+    100%{
+                transform: translate(-800px);
+                
+    }
+
+}
+@keyframes animate4 {
+    0%{
+        transform-origin: center;
+        transform: translateX(0);
+    }
+    100%{
+                transform: translateX(80px);
+                
+    }
+
+}
+
+/*  i used the the circle here with the third section because they have same property */
+.fourth .container .points  span:first-of-type{
+    background-color: #37a;
+}
+.fourth .container .points  span:hover{
+        background-color: #37a;
+
+}
+  
+.fourth .container {
+    
+    margin-bottom: 150px;
+    position: relative;
+}
+.fourth .container .top {
+    
+    text-align: center;
+    margin-top: 100px;
+}
+.fourth .container .top h2{
+    color:#37a;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.fourth .container .top p {
+    color:#707070;
+    text-align: center;
+    line-height: 1.5;
+}
+.fourth .container .images img {
+    
+    width:18%; 
+    margin-right: 5px;
+    margin-top: 50px;
+    height:300px; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+
+    
+}
+.fourth .container .images img:hover{
+    opacity: 0.8;
+    border-bottom: 8px solid #00f;
+}
+/* end the fourth section*/
+
+footer {
+    background-image: url(../img/infinite-loop-03.jpg);
+    background-size: cover;
+    height:860px;
+}
+footer .container .top {
+    
+    text-align: center;
+    color:#FFF;
+    padding-top:10%;
+}
+footer .container .top h2 {
+    font-size:40px;
+    margin-bottom: 30px;
+}
+footer .container .top p {
+    line-height: 2;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+footer .container .form {
+    margin-left: 160px;
+    color:#FFF;
+
+
+
+}
+footer .container .form input,footer .container .form textarea {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width:400px;
+    background:none;
+    border:2px solid #FFF;
+    border-radius: 10px;
+    color: #FFF;
+}
+footer .container .form textarea {
+    height:200px;
+}
+footer .container .form input:last-of-type{
+    width:200px;
+    border:none;
+    color:#FFF;
+    cursor: pointer;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: #369;
+
+}
+footer .container .form input:last-of-type:hover{
+    background-color: #37a;
+}
+footer .container .form ::placeholder{
+    color:#FFF;
+    font-size: 17px;
+}
+footer .container .right{
+    float: right;
+    margin-top: -400px;
+    color:#FFF;
+    margin-right: 200px;
+}
+footer .container .right img {
+    width:60px; 
+    height:40px;
+    margin-top: 40px;
+}
+footer .container .right span {
+
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    top:-17px;
+    cursor:pointer;
+}
+footer .container .right span:hover{
+    color:#37a;
+}
+footer .container .copy {
+    margin-top: 100px;
+    text-align: center;
+    color:#FFF;
+    font-size: 16px;
+}
